@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jqueryCollision": "^1.0.2"
+  }
+}

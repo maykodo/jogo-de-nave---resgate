@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="shortcut icon" href="#">
+    <title>Jogo de Nave</title>
+</head>
+<body>
+    <div id="main">
+        <div id="fundoGame">
+            <div id="inicio" onclick="start()">
+                <h1>Resgate</h1>
+                <p>Click para iniciar a partida</p>
+            </div>
+        </div>
+
+        <div id="instrucoes">
+            <p>Utilize a Tecla "W" para movimentar o helicóptero para cima, a tecla "S" Para movimenta o helicóptero para baixo e apertando a tecla "D" para atirar</p>
+        </div>
+    </div>
+    
+    <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="sons/gameover.mp3" preload="auto" id="somGameOver"></audio>
+    <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>
+    <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+</body>
+<script src="script.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="node_modules/jquerycollision/jquery-collision.js"></script>
+
+</html>
